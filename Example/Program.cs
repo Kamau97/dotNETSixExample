@@ -1,4 +1,10 @@
-﻿using ANWExample.Models;
+﻿using Example.Models;
+
+/*
+ * This is a simple example to demonstrate some new features of .NET 6 and C# 10.
+ * Feel free to add your own or modify the existing code and test out some things.
+ * If you feel ready go to the first exercise.
+ */
 
 var test = new Test
 {

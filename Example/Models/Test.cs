@@ -1,4 +1,4 @@
-﻿namespace ANWExample.Models;
+﻿namespace Example.Models;
 
 /// <summary>
 /// A test
