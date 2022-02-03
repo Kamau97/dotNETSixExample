@@ -20,11 +20,13 @@ var test = new Test
 			1,
 			new TimeSpan(0, 1, 0, 0)),
 		Gender.Unknown,
-		new Address
+		new AddressWithName
 		{
 			City = "Musterhausen",
 			Street = "Musterstraße 666",
-			Zip = "66666"
+			Zip = "66666",
+			FirstName = "Max",
+			LastName = "Mustermann"
 		})
 };
 

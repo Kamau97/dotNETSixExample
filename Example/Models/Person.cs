@@ -23,6 +23,24 @@ public record Address
 	/// The street with the number
 	/// </summary>
 	public string Street { get; set; } = null!;
+
+	public sealed override string ToString()
+	{
+		return $"{Street}\n{Zip} {City}";
+	}
+}
+
+public record AddressWithName : Address
+{
+	/// <summary>
+	/// The firstname
+	/// </summary>
+	public string? FirstName { get; set; }
+
+	/// <summary>
+	/// The surname
+	/// </summary>
+	public string? LastName { get; set; }
 }
 
 public record struct Gender
